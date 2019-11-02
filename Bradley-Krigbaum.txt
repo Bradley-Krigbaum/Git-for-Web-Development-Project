@@ -154,27 +154,29 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
  
     37. Walk me through Lambda's git flow.
 
-    
+    fork repo >> add TL as collaborator >> clone repo >> create student branch "Bradley-Krigbaum" >> add/commit/push to student branch >> create pull request >> submit pull request >> add TL as reviewer on pull request >> once TL merges bramch to master, your work is completed.
  
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
 
-    
+    inline elements are added on the same line, they do not drop to the next line to add the elements. Block elements are added to a new line unlike inline elements.
 
     2. What happens when an element is positioned absolutely?
 
-    
+    absolutely positioned elements are not affected by the flow of other elements. absolutely positioned are positioned relative to the nearest non static ancestor
  
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
 
-    
+    inline-block
  
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 
-    
+    Block: div, p, li
+    Inline: span, a 
+    Inline-Block: img
 
     5. In your own words, explain the box model. What is the fix for the box model?
 
-    
+    The box model is a visual way of aligning and placeing elements on a page. Imagine put a box inside a box, then a box inside that one, then another box inside that one. The innermost box is the content, the content box is put inside the padding box, the padding box is put inside the margin box, the margin box is put inside the border box. Each element has its own box model. Putting a border around a page is the same as putting a border around a picture or paragraph. Every element has its own set of boxes.
